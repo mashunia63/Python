@@ -77,12 +77,16 @@ print('28) if item_4 ')
 if item_4: print('Переменная item_4 = ', item_5)
 else: print('Переменная item_4 = ', item_4)
 
+print()
 print('---- Currency Convertor ----')
+print()
 currency_convertor = item_2
 print('currency_convertor = ',currency_convertor)
 
-# Версия 1 - 1 валюта
-print('Версия 1 - 1 валюта')
+# Версия 1 - "1 валюта"
+print()
+print("---- Версия 1 - '1 валюта' -----")
+print()
 if currency_convertor:
     currency_usd = usd_item
     print('currency_usd = ',currency_usd)
@@ -111,8 +115,11 @@ if currency_convertor:
     else: print("Unknow currency")
 else: ('Переменная currency_convertor = ', item_3)
 
-# Версия 2 - все валюты
-print('Версия 2 - все валюты')
+
+# Версия 2 - "Все Валюты"
+print()
+print(" ---- Версия 2 - 'Все Валюты' -----")
+print()
 if currency_convertor:
     currency_usd = usd_item
     print('currency_usd = ',currency_usd)
@@ -141,10 +148,8 @@ if currency_convertor:
         elif target_currency == "byn":
             currency_result = target_currency_amount / usd_byn_rate
             print(target_currency_amount, byn_item, " = ", currency_result, usd_item)
-
         else:
             print("Unknow currency")
-
 
 else:
     ('Переменная currency_convertor = ', item_3)
