@@ -132,8 +132,8 @@ print("ошибка")
 
 print("58. Создать переменную b_item_1_int и присвоить явное приведение b_item_t к int ")
 b_item_1_int = int(b_item_t)
-print(b_item_1_int)
+print(type(b_item_t),  b_item_1_int , type(b_item_1_int))
 
-print("60. Создать переменную b_item_2_int и присвоить явное приведение b_item_2 к int")
-b_item_2_int = int (b_item_f)
-print(b_item_2_int)
+print("60. Создать переменную b_item_2_int и присвоить явное приведение b_item_f к int")
+b_item_2_int = int(b_item_f)
+print(type(b_item_f), b_item_2_int, type(b_item_2_int))
